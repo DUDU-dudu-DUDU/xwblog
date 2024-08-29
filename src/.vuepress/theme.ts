@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "xiaowu",
+    url: "https://dudu-dudu-dudu.github.io/xwblog/zh/",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -96,7 +96,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "一个后端开发者",
         intro: "/zh/intro.html",
       },
 

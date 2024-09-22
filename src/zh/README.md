@@ -6,6 +6,7 @@ title: 博客主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 小吴Blog
 heroFullScreen: true
+bgImage: https://file.mo7.cc/api/public/bz
 tagline: 最是秋风管闲事 红他枫叶白人头
 projects:
   - icon: project

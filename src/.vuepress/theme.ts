@@ -13,7 +13,9 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/wu1.png",
+
+  favicon:"/wu1.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -96,7 +98,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个后端开发者",
+        description: "不如意事常八九  可与语人无二三",
         intro: "/zh/intro.html",
       },
 

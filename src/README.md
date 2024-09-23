@@ -3,10 +3,11 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /assets/images/main1.png
 heroText: The name of your blog
 tagline: You can put your slogan here
 heroFullScreen: true
+bgImage: https://bing.ee123.net/img/rand
 projects:
   - icon: project
     name: project name

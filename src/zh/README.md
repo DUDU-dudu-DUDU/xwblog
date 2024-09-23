@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /assets/images/main1.png
 heroText: 小吴Blog
 heroFullScreen: true
-bgImage: https://bing.ee123.net/img/rand
+bgImage: https://bing.ee123.net/img/4k
 tagline: 最是秋风管闲事 红他枫叶白人头
 projects:
   - icon: project

@@ -62,7 +62,7 @@ export default hopeTheme({
   },
 
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -86,7 +86,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -99,7 +99,7 @@ export default hopeTheme({
 
       blog: {
         description: "不如意事常八九  可与语人无二三",
-        intro: "/zh/intro.html",
+        intro: "/intro.html",
       },
 
       // page meta

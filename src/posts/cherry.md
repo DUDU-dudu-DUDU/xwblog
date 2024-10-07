@@ -1,23 +1,22 @@
 ---
 icon: pen-to-square
-date: 2022-01-09
+date: 2024-10-01
+cover: /assets/images/xiaobai.jpg
 category:
-  - 樱桃
+  - Linux
 tag:
-  - 红
-  - 小
-  - 圆
+  - 基础
+  - linux
+  - 命令
 ---
 
-# 樱桃123
+# First Blog
 
-## 标题 2
+## Liux的常用命令
 
-这里是内容。
+第一篇博客  Liux的常用命令
 
-### 标题 3
-## Linux
-
+<!-- more -->
 1. 安装
 
 2. 命令

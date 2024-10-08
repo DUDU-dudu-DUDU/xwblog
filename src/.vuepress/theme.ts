@@ -12,7 +12,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
+  navbarAutoHide: 'always', // 上划隐藏导航栏
   logo: "/wu1.png",
 
   favicon:"/wu1.png",

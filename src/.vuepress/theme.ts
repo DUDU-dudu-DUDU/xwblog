@@ -10,8 +10,8 @@ export default hopeTheme({
     name: "xiaowu",
     url: "https://dudu-dudu-dudu.github.io/xwblog/zh/",
   },
-
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: '//at.alicdn.com/t/c/font_4705334_e2ygqwamdim.css',
+  // iconAssets: "fontawesome-with-brands",
   navbarAutoHide: 'always', // 上划隐藏导航栏
   logo: "/wu1.png",
 

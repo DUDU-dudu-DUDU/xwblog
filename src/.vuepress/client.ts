@@ -6,7 +6,7 @@ import 'vuepress-theme-hope/presets/bounce-icon.scss'; // 为页面图标添加�
 const TopNavBeautify = defineAsyncComponent(() => import('./components/TopNavBeautify.vue'));
 const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
 // const HeroHitokoto = defineAsyncComponent(() => import('./components/HeroHitokoto.vue'));
-// const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
+const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 // const PrintVersion = defineAsyncComponent(() => import('./components/PrintVersion.vue'));
 // const CommentHideBtn = defineAsyncComponent(() => import('./components/CommentHideBtn.vue'));
 const MyIcon = defineAsyncComponent(() => import('./components/MyIcon.vue'));
@@ -25,7 +25,7 @@ export default defineClientConfig({
     TopNavBeautify,
     // HeroBG,
     // HeroHitokoto,
-    // NavMusic,
+    NavMusic,
     // PrintVersion,
     // CommentHideBtn,
     BlogBeautify,

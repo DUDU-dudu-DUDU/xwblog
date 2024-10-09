@@ -60,7 +60,7 @@ onMounted(() => {
 
 <template>
   <ClientOnly>
-    <div class="none">修改顶栏组件</div>
+    <!-- <div class="none">修改顶栏组件</div> -->
   </ClientOnly>
 </template>
 

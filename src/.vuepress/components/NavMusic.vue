@@ -74,7 +74,23 @@ const NewPlayer = () => {
 
   Win.GlobalAPlayer = new APlayer({
     container: document.getElementById('GlobalAPlayer'),
-    audio: GlobalMusicList,
+    // audio: GlobalMusicList,
+    audio: [
+      {
+        "name": "DUDU",
+        "artist": "DUDU",
+        "url": "https://ws6.stream.qqmusic.qq.com/C400003ulSD84KF9Rb.m4a?guid=4634929828&vkey=37A42DAB64475B9F6B667F1B27F84F0C08C6786B0E3FCF70519C5DD8F24C8F0ED86B33916DF3B06E1374DE89EC871808FB5547C24AB6412B&uin=930824238&fromtag=120032",
+        "cover": "https://y.qq.com/music/photo_new/T002R300x300M000002V4hDE1h8eEL.jpg?max_age=2592000&quot",
+        // "lrc": "//file.mo7.cc/music/泡沫-G.E.M.邓紫棋/lyrics.lrc"
+      },
+      {
+        "name": "DUDU",
+        "artist": "DUDU",
+        "url": "https://ws6.stream.qqmusic.qq.com/C400003ulSD84KF9Rb.m4a?guid=4634929828&vkey=37A42DAB64475B9F6B667F1B27F84F0C08C6786B0E3FCF70519C5DD8F24C8F0ED86B33916DF3B06E1374DE89EC871808FB5547C24AB6412B&uin=930824238&fromtag=120032",
+        "cover": "https://y.qq.com/music/photo_new/T002R300x300M000002V4hDE1h8eEL.jpg?max_age=2592000&quot",
+        // "lrc": "//file.mo7.cc/music/泡沫-G.E.M.邓紫棋/lyrics.lrc"
+      }
+    ],
     lrcType: 3,
     listFolded: false,
     listMaxHeight: '324px',

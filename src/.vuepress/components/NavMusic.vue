@@ -32,7 +32,7 @@ const InsertMenu = () => {
     elm.id = 'MyMusic_Menu';
     elm.classList.add('nav-item');
     elm.className = 'btnImg';
-    elm.innerHTML = `<div id="MyMusic_icon" class="btnImg"></div>`; // spin="true"
+    elm.innerHTML = `<div id="MyMusic_icon" class="btnImg" style="background-image: url('assets/icon/icone.png');"></div>`; // spin="true"
     navCenterElm.appendChild(elm);
   }
 
@@ -242,7 +242,7 @@ onMounted(() => {
   height: 1.6rem;
   width: 1.6rem;
   .btnImg {
-    background-image: url('/assets/icon/icone.png');
+    // background-image: url('//assets/icon/icone.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

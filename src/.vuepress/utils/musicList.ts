@@ -8,7 +8,7 @@ export interface Song {
 export const songs: Song[] = [
   {
     name: "春庭雪",
-    url: "http://lv.sycdn.kuwo.cn/0825eee366cb4bb4b9d238c8ea10c731/6707d982/resource/30106/trackmedia/M800002dBQyg2OLWqr.mp3",
+    url: "https://webfs.kugou.com/202410102220/97c6585353ac3079a3e2b1ac32b39385/v3/b526db8b5c42542770985078de58b38b/yp/p_0_960135/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx592511557_s1566420773.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20240126/20240126152017724110.jpg"
   },
   {
@@ -18,13 +18,13 @@ export const songs: Song[] = [
   },
   {
     name: "多余的解释",
-    url: "http://ra.sycdn.kuwo.cn/7898ff74254ac3cf682e6b793ec436c6/6707dd88/resource/n2/320/15/64/3788453729.mp3",
+    url: "https://webfs.kugou.com/202410102220/014cce4d79bdb95ae9e179a4d0c2f556/v3/34d67ecd8f608874d7119eba6bd9ac2f/yp/p_0_960119/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx32157564_s3606226928.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20230802/20230802060202337727.jpg"
 
   },
   {
     name: "童话镇",
-    url: "http://er.sycdn.kuwo.cn/7083a3300386864d035f4bf71dfc9ceb/6707ddf9/resource/30106/trackmedia/M800001w6tGV0elsc5.mp3",
+    url: "https://webfs.kugou.com/202410102221/005c7fad8f46c3431495d22020ac2cd5/v3/dbf4c9254e435bd743eef04b98094ffa/yp/p_0_960549/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx647254610_s2798201891.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20240713/20240713155245425879.jpg"
   }
 ];

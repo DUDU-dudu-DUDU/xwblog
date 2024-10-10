@@ -242,7 +242,7 @@ onMounted(() => {
   height: 1.6rem;
   width: 1.6rem;
   .btnImg {
-    background-image: url('http://localhost:8080/xwblog/assets/icon/playBtn.webp');
+    background-image: url('http://localhost:8080/xwblog/assets/icon/icone.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

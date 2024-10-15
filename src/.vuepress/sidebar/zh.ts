@@ -8,7 +8,7 @@ const back_posts = {
 
 const back_program = {
   text: '返回编程',
-  icon: 'developer',
+  icon: 'a-appround6',
   link: '/program/',
 };
 
@@ -32,7 +32,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "编程",
-      icon: "book",
+      icon: "a-appround6",
       prefix: "program/",
       link: "/program/",
       children: "structure",
@@ -46,14 +46,14 @@ export const zhSidebar = sidebar({
     },
     {
       text: "工具",
-      icon: "book",
+      icon: "gongju",
       prefix: "tools/",
       link: "/tools/",
       children: "structure",
     },
     {
       text: "小心情",
-      icon: "book",
+      icon: "a-appround26",
       prefix: "mood/",
       link: "/mood/",
       children: "structure",
@@ -64,7 +64,7 @@ export const zhSidebar = sidebar({
     back_posts,
     {
       text: '编程',
-      icon: 'zhifeiji',
+      icon: 'a-appround6',
       children: 'structure',
       link: '/program/',
     },

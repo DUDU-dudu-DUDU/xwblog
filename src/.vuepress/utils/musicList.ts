@@ -8,23 +8,23 @@ export interface Song {
 export const songs: Song[] = [
   {
     name: "春庭雪",
-    url: "https://webfs.kugou.com/202410102220/97c6585353ac3079a3e2b1ac32b39385/v3/b526db8b5c42542770985078de58b38b/yp/p_0_960135/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx592511557_s1566420773.mp3",
+    url: "http://music.163.com/song/media/outer/url?id=2634876793.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20240126/20240126152017724110.jpg"
   },
   {
     name: "猪猪侠",
-    url: "https://sharefs.tx.kugou.com/202410102145/48781541be0f3f3b341e1dc034589bc2/v3/d256ab5633d56f1d7a42c89c6d4f378a/yp/full/ap1000_us0_pi409_s2195821443.mp3",
+    url: "http://music.163.com/song/media/outer/url?id=34324641.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20221207/20221207214918757588.jpg"
   },
   {
     name: "多余的解释",
-    url: "https://webfs.kugou.com/202410102220/014cce4d79bdb95ae9e179a4d0c2f556/v3/34d67ecd8f608874d7119eba6bd9ac2f/yp/p_0_960119/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx32157564_s3606226928.mp3",
+    url: "https://freetyst.nf.migu.cn/public/product7th/productB25/2020/08/0316/2012%E5%B9%B412%E6%9C%8805%E6%97%A5%E6%B5%B7%E8%9D%B6%E5%94%B1%E7%89%87%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A58%E9%A6%96/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_128_16_Stero/60058623029165243.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20230802/20230802060202337727.jpg"
 
   },
   {
     name: "童话镇",
-    url: "https://webfs.kugou.com/202410102221/005c7fad8f46c3431495d22020ac2cd5/v3/dbf4c9254e435bd743eef04b98094ffa/yp/p_0_960549/ap1014_us0_mii0w1iw8z2ai2iphcu80ooo2ki81120_pi406_mx647254610_s2798201891.mp3",
+    url: "https://freetyst.nf.migu.cn/public/product9th/product46/2024/08/2317/2024%E5%B9%B407%E6%9C%8823%E6%97%A511%E7%82%B929%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%94%B3%E4%BC%97%E6%96%87%E5%8C%961%E9%A6%96915191/%E6%A0%87%E6%B8%85%E9%AB%98%E6%B8%85/MP3_128_16_Stero/63293800633173647.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20240713/20240713155245425879.jpg"
   }
 ];

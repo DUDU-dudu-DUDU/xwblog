@@ -1,5 +1,5 @@
 ---
-icon: developer
+icon: a-dengpaowulichuangxin
 
 category:
   - 编程技巧
@@ -11,7 +11,7 @@ index: false
 permalink: /skill/
 ---
 
-# 编程技巧
+# 技巧
 
 <Catalog base='/skill/' />
 

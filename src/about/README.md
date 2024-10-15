@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: a-huaxueshiyan
 index: false
 permalink: /about/
 ---

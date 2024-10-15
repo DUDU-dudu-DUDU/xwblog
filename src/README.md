@@ -9,7 +9,7 @@ heroFullScreen: true
 bgImage: https://bing.ee123.net/img/4k
 tagline: 最是秋风管闲事 红他枫叶白人头
 projects:
-  - icon: project
+  - icon: a-fangwenweiguishujuwenjianjia
     name: 项目名称
     desc: 项目详细描述
     link: https://你的项目链接

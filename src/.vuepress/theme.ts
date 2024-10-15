@@ -4,13 +4,13 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://github.com/DUDU-dudu-DUDU/xwblog",
 
   author: {
     name: "xiaowu",
     url: "https://dudu-dudu-dudu.github.io/xwblog/zh/",
   },
-  iconAssets: '//at.alicdn.com/t/c/font_4705334_xlase3qs3xj.css',
+  iconAssets: '//at.alicdn.com/t/c/font_4712357_z608w4gygw.css',
   // iconAssets: "fontawesome-with-brands",
   navbarAutoHide: 'always', // 上划隐藏导航栏
   logo: "/wu1.png",

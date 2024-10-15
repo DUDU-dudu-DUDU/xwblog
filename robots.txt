@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mister-hope.github.io/xwblog/sitemap.xml
+Sitemap: https://github.com/DUDU-dudu-DUDU/xwblog/xwblog/sitemap.xml

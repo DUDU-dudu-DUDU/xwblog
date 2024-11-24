@@ -8,7 +8,7 @@ export interface Song {
 export const songs: Song[] = [
   {
     name: "春庭雪",
-    url: "http://music.163.com/song/media/outer/url?id=2634876793.mp3",
+    url: "http://lx.sycdn.kuwo.cn/388fe36bcfe5ab63624b75a9b1c89a2c/6742d511/resource/n3/71/43/1184522675.mp3",
     cover: "http://imge.kugou.com/stdmusic/400/20240126/20240126152017724110.jpg"
   },
   {

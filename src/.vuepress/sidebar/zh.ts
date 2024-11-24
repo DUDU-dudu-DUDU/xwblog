@@ -25,7 +25,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "博文",
-      icon: "book",
+      icon: "rijibenjilu",
       prefix: "posts/",
       link: "/posts/",
       children: "structure",

@@ -12,6 +12,12 @@ const back_program = {
   link: '/program/',
 };
 
+const back_mood = {
+  text: '返回小心情',
+  icon: 'a-appround26',
+  link: '/mood/',
+};
+
 
 export const zhSidebar = sidebar({
   "/": [
@@ -91,11 +97,28 @@ export const zhSidebar = sidebar({
   '/mood/': [
     back_posts,
     {
-      text: '动漫',
+      text: '小心情',
+      icon: 'a-appround26',
+      children: 'structure',
+      link: '/mood/',
+    },
+  ],
+  '/mood/share/': [
+    back_mood,
+    {
+      text: '分享',
       icon: 'zhifeiji',
       children: 'structure',
-      prefix: 'anime/',
-      link: '/mood/anime/',
+      link: '/mood/share/',
+    },
+  ],
+  '/mood/notes/': [
+    back_mood,
+    {
+      text: '小记',
+      icon: 'chonglang',
+      children: 'structure',
+      link: '/mood/notes/',
     },
   ],
 

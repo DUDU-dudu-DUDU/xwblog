@@ -19,7 +19,7 @@ export const zhNavbar = navbar([
   {
     text: "小心情",
     icon: "a-appround26",
-    children: ['/mood/anime/'],
+    children: ['/mood/share/', '/mood/notes/'],
   },
   '/about/',
 ]);

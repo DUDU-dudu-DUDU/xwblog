@@ -75,8 +75,7 @@ const NewPlayer = () => {
 
   Win.GlobalAPlayer = new APlayer({
     container: document.getElementById('GlobalAPlayer'),
-    // audio: GlobalMusicList,
-    audio: songs,
+    audio: GlobalMusicList,
     lrcType: 3,
     listFolded: false,
     listMaxHeight: '324px',
@@ -84,6 +83,7 @@ const NewPlayer = () => {
     fixed: false,
     volume: 1,
     storageName: 'GlobalAPlayer',
+    autoplay: false,
   });
 
   // 让按钮旋转
@@ -92,6 +92,18 @@ const NewPlayer = () => {
   });
   Win.GlobalAPlayer.on('pause', function () {
     AddBtnSpin();
+  });
+  // 监听 error 事件，阻止自动播放下一首
+  Win.GlobalAPlayer.on('error', function () {
+    console.error('Current song failed to load or play, will not automatically switch to the next song.');
+    // 暂停播放器
+    Win.GlobalAPlayer.pause();
+    // 禁止自动前进到下一曲
+    Win.GlobalAPlayer.list.switch(-1);
+  });
+  // 监听 ended 事件，防止自动播放下一首
+  Win.GlobalAPlayer.on('ended', function () {
+    // 阻止默认行为，即自动播放下一首
   });
 };
 
@@ -116,18 +128,9 @@ function AddBtnSpin() {
 // }
 
 const LoadMusicList = (callback) => {
-  axios({
-    method: 'get',
-    url: '//file.mo7.cc/music/list.json',
-    params: {},
-  }).then((response) => {
-    var listData = response.data;
-    if (listData && listData.length > 0) {
-      GlobalMusicList = listData;
-    }
-    console.log('加载音乐列表', GlobalMusicList);
-    callback && callback();
-  });
+  GlobalMusicList = songs;
+  console.log('加载本地音乐列表', songs);
+  callback && callback();
 };
 
 onMounted(() => {

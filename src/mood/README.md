@@ -1,5 +1,5 @@
 ---
-icon: a-appround42
+icon: a-appround26
 
 # category:
 #   - 分享
@@ -11,7 +11,7 @@ index: false
 permalink: /mood/
 ---
 
-# 动漫分享
+# 小心情
 
 <Catalog base='/mood/' />
 

@@ -22,13 +22,13 @@ const back_mood = {
 export const zhSidebar = sidebar({
   "/": [
     "",
-    {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
+    // {
+    //   text: "如何使用",
+    //   icon: "laptop-code",
+    //   prefix: "demo/",
+    //   link: "demo/",
+    //   children: "structure",
+    // },
     {
       text: "博文",
       icon: "rijibenjilu",
@@ -45,7 +45,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "技巧",
-      icon: "book",
+      icon: "a-dengpaowulichuangxin",
       prefix: "skill/",
       link: "/skill/",
       children: "structure",
@@ -107,7 +107,7 @@ export const zhSidebar = sidebar({
     back_mood,
     {
       text: '分享',
-      icon: 'zhifeiji',
+      icon: 'a-appround42',
       children: 'structure',
       link: '/mood/share/',
     },

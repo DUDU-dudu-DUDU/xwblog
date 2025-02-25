@@ -87,7 +87,7 @@ export const zhSidebar = sidebar({
   '/program/linux/': [
     back_program,
     {
-      text: 'LINUX',
+      text: 'Linux',
       icon: 'basic',
       link: '/program/linux/',
       children: 'structure',

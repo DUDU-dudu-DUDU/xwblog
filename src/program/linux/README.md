@@ -11,7 +11,7 @@ index: false
 permalink: /program/linux/
 ---
 
-# LINUX
+# Linux
 
 <Catalog base='/program/linux/' />
 

@@ -377,7 +377,7 @@ tag:
 
      /etc/hosts文件用于在通过主机名进行访问时做ip地址解析之用,相当于windows系统的C:\Windows\System32\drivers\etc\hosts文件的功能
 
-   ![img](file:///C:\Users\吴\AppData\Local\Temp\ksohtml2032\wps1.jpg)
+   <!-- ![img](file:///C:\Users\吴\AppData\Local\Temp\ksohtml2032\wps1.jpg) -->
 
    
 

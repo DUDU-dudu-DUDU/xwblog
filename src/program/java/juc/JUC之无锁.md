@@ -11,9 +11,9 @@ tag:
 JUC的层cas、volatile原理、常用的原子性方法LongAdder...
 <!-- more -->
 
-### 共享模型之无锁
+## 共享模型之无锁
 
-#### CAS 与 volatile
+## CAS 与 volatile
 
 ```java
 public void withdraw(Integer amount) {
@@ -73,7 +73,7 @@ CAS 必须借助 volatile 才能读取到共享变量的最新值来实现【比
 
 
 
-##### CAS 的特点 
+### CAS 的特点 
 
 结合 CAS 和 volatile 可以实现无锁并发，适用于线程数少、多核 CPU 的场景下。 
 
@@ -85,7 +85,7 @@ CAS 必须借助 volatile 才能读取到共享变量的最新值来实现【比
 
 
 
-##### 原子整数
+### 原子整数
 
 J.U.C 并发包提供了： 
 
@@ -109,7 +109,7 @@ public static int updateAndGet(AtomicInteger i, IntUnaryOperator operator){
 
 
 
-##### 原子引用 
+### 原子引用 
 
 - AtomicReference 
 - AtomicMarkableReference 
@@ -118,7 +118,7 @@ public static int updateAndGet(AtomicInteger i, IntUnaryOperator operator){
 
 
 
-##### ABA 问题及解决 
+### ABA 问题及解决 
 
 主线程仅能判断出共享变量的值与最初值 A 是否相同，不能感知到这种从 A 改为 B 又 改回 A 的情况，如果主线程 希望： 只要有其它线程【动过了】共享变量，那么自己的 cas 就算失败，这时，仅比较值是不够的，需要再加一个版本号
 
@@ -137,7 +137,7 @@ String a = "a";
 
 
 
-##### 原子数组
+### 原子数组
 
 - AtomicIntegerArray 
 - AtomicLongArray 
@@ -154,7 +154,7 @@ demo(
 
 
 
-##### 字段更新器
+### 字段更新器
 
 - AtomicReferenceFieldUpdater // 域 字段 
 - AtomicIntegerFieldUpdater 
@@ -171,7 +171,7 @@ AtomicIntegerFieldUpdater fieldUpdater =
 
 
 
-##### 原子累加器 
+### 原子累加器 
 
  AtomicLong 与 LongAdder对比 LongAdder性能更好
 

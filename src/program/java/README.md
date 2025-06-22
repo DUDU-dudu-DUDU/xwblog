@@ -11,7 +11,7 @@ index: false
 permalink: /program/java/
 ---
 
-# JAVA
+# Java
 
 <Catalog base='/program/java/' />
 

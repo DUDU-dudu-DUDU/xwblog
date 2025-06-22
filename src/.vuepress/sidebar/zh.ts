@@ -78,9 +78,18 @@ export const zhSidebar = sidebar({
   '/program/java/': [
     back_program,
     {
-      text: 'JAVA',
+      text: 'Java',
       icon: 'basic',
       link: '/program/java/',
+      children: 'structure',
+    },
+  ],
+  '/program/netty/': [
+    back_program,
+    {
+      text: 'Netty',
+      icon: 'basic',
+      link: '/program/netty/',
       children: 'structure',
     },
   ],

@@ -130,6 +130,15 @@ export const zhSidebar = sidebar({
       link: '/mood/notes/',
     },
   ],
+  '/mood/music/': [
+    back_mood,
+    {
+      text: '随心音乐',
+      icon: 'wumaomao',
+      children: 'structure',
+      link: '/mood/notes/',
+    },
+  ],
 
 
 

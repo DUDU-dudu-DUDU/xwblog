@@ -9,20 +9,21 @@ heroFullScreen: true
 bgImage: https://bing.ee123.net/img/4k
 tagline: 最是秋风管闲事 红他枫叶白人头
 projects:
+
+  - icon: a-appround22
+    name: 博客地图
+    desc: 博客地图
+    link: /posts/catalog.html
+
   - icon: a-fangwenweiguishujuwenjianjia
-    name: 项目名称
-    desc: 项目详细描述
+    name: 我的项目
+    desc: 我的项目
     link: https://github.com/DUDU-dudu-DUDU/xwblog
 
-  # - icon: link
-  #   name: 链接名称
-  #   desc: 链接详细描述
-  #   link: https://链接地址
-
-  # - icon: book
-  #   name: 书籍名称
-  #   desc: 书籍详细描述
-  #   link: https://你的书籍链接
+  - icon: wumaomao
+    name: 随心音乐
+    desc: 随心音乐
+    link: /favorite/music/
 
   # - icon: article
   #   name: 文章名称

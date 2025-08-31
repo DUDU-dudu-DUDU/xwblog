@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxwblog=self.webpackChunkxwblog||[]).push([[8928],{78928:(n,s,e)=>{e.r(s),e.d(s,{default:()=>c});var o=e(20641),p=e(90033);const a=["spin"],c=(0,o.pM)({__name:"MyIcon",props:{name:String,spin:Boolean},setup(n){const s=n;return(n,e)=>((0,o.uX)(),(0,o.CE)("span",{class:(0,p.C4)(["iconfont icon",`icon-${s.name}`]),spin:s.spin},null,10,a))}})}}]);

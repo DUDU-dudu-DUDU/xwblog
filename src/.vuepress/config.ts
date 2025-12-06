@@ -9,7 +9,7 @@ export default defineUserConfig({
     "/en/": {
       lang: "en-US",
       title: "xiaowu Blog",
-      description: "A blog demo for vuepress-theme-hope",
+      description: "A blog demo for xwblog",
     },
     "/": {
       lang: "zh-CN",

@@ -17,7 +17,7 @@ export default hopeTheme({
 
   favicon:"/wu1.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "DUDU-dudu-DUDU/xwblog",
 
   docsDir: "src",
 
